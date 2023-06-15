@@ -1,56 +1,15 @@
+import Appheader from "./pages/Appheader";
+import Body from "./pages/Body";
+import AppFooter from "./pages/AppFooter";
 function App() {
   return (
     <>
-      <AppHeader />
+      <Appheader />
       <Body />
       <AppFooter />
     </>
   );
 }
 //user defined tag :
-function AppHeader() {
-  return (
-    <>
-      <div className="row  d-flex bg-success text-light p-3 justify-content-center ">
-        <div className="col">Home</div>
-        <div className="col"> Project</div>
-        <div className="col">AboutUs</div>
-      </div>
-    </>
-  );
-}
 
-function Body() {
-  return (
-    <>
-      <div className="alert alert-success fs-3  mb-0">
-        {" "}
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
-        voluptatum, enim reiciendis amet ipsam iusto ea neque. Nobis molestiae
-        non velit magni debitis, culpa sequi corporis ipsa cupiditate
-        perferendis dolorum eius, doloremque, laboriosam labore! Voluptate
-        veniam esse earum libero rerum, animi natus illo. Tempore facere beatae,
-        saepe repellat molestiae non delectus? Quas autem tempore saepe itaque.
-        Repellendus ab illo dolore, sunt amet saepe blanditiis laudantium. Nihil
-        soluta nemo nesciunt delectus animi odit in neque officia? Dolor,
-        beatae? Esse accusamus dolorem explicabo quae, facere veritatis vel
-        doloribus voluptas, amet voluptate officiis nulla dolorum reiciendis ab
-        quod ullam sint deserunt consectetur blanditiis!
-      </div>{" "}
-    </>
-  );
-}
-function AppFooter() {
-  return (
-    <>
-      <div
-        className="bg-dark text-light d-flex justify-content-center align-items-center"
-        style={{ height: "200px" }}
-      >
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti,
-        voluptatum.
-      </div>{" "}
-    </>
-  );
-}
 export default App;
