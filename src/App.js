@@ -9,21 +9,15 @@ function App() {
 export default App;
 
 function CounterApp() {
-  // Data members
-  let id = 1;
-  let str = "Hello world";
-  let pi = 3.14;
-  let active = true;
+  let LikemeAction = () => {
+    //alert();
+    console.log("I m button");
+  };
 
-  //member function
-  let likeMe = () => {};
-  let dislikeMe = () => {};
-
-  //jsx:: view::user-interface::Required;
   return (
     <>
-      <h1>1</h1>
-      <input type="button" value="Likeme" />
+      <h1>{counter}</h1>
+      <input type="button" value="Likeme" onClick={LikemeAction} />
     </>
   );
 }
