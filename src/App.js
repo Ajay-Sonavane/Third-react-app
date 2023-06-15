@@ -11,7 +11,11 @@ function App() {
 function AppHeader() {
   return (
     <>
-      <h1>AppHeader</h1>
+      <div className="row d-flex bg-success text-light p-3 justify-content-center ">
+        <div className="col">Home</div>
+        <div className="col"> Project</div>
+        <div className="col">AboutUs</div>
+      </div>
     </>
   );
 }
