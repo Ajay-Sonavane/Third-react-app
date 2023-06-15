@@ -7,7 +7,7 @@ function App() {
     </>
   );
 }
-//user defined tag :-
+//user defined tag :
 function AppHeader() {
   return (
     <>
