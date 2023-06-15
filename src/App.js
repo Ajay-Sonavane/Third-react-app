@@ -1,15 +1,19 @@
-import Appheader from "./pages/Appheader";
-import Body from "./pages/Body";
-import AppFooter from "./pages/AppFooter";
 function App() {
   return (
     <>
-      <Appheader />
-      <Body />
-      <AppFooter />
+      <h1>Counter Application</h1>
+      <CounterApp />
     </>
   );
 }
-//user defined tag :
-
 export default App;
+
+function CounterApp() {
+  return (
+    <>
+      {" "}
+      <h1>1</h1>
+      <input type="button" value="Likeme" />
+    </>
+  );
+}
