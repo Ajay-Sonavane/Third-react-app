@@ -9,13 +9,16 @@ function App() {
 export default App;
 
 function CounterApp() {
+  let counter = 1;
+
   let LikemeAction = () => {
-    //alert();
-    console.log("I m button");
+    counter = counter + 1;
+    console.log("i m button ", counter);
   };
 
   return (
     <>
+      <h1>{counter}</h1>
       <input type="button" value="Likeme" onClick={LikemeAction} />
     </>
   );
