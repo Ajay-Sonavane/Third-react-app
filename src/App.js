@@ -16,7 +16,6 @@ function CounterApp() {
 
   return (
     <>
-      <h1>{counter}</h1>
       <input type="button" value="Likeme" onClick={LikemeAction} />
     </>
   );
