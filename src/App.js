@@ -5,6 +5,9 @@ function App() {
     <>
       <h1>Counter Application</h1>
       <CounterApp />
+      <CounterApp />
+      <CounterApp />
+      <CounterApp />
     </>
   );
 }
@@ -25,10 +28,17 @@ function CounterApp() {
   };
   return (
     <>
+      <h4>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde facilis
+        deleniti enim nobis maiores, et minima assumenda at nemo, nulla error
+        nisi quia ipsa reiciendis modi adipisci eligendi distinctio iusto. Quia
+        enim adipisci iusto incidunt accusantium autem, voluptates perspiciatis
+        deserunt quisquam modi? Repellendus ab fuga ipsam aliquid ex!
+        Voluptatem, quibusdam!
+      </h4>
       <h1>{counter}</h1>
-      <h1>{counter}</h1>
-      <h1>{counter}</h1>
-      <input type="button" value="Like Me" onClick={likemAction} />
+
+      <input type="button" value="&#128077;" onClick={likemAction} />
     </>
   );
 }
